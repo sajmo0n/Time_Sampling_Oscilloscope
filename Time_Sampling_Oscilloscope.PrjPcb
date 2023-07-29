@@ -117,6 +117,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEOHOYQJ
 
+[Document5]
+DocumentPath=Power_Supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BGQVLZXC
+
 [ProjectVariant1]
 UniqueID=3D95D31B-1725-4AFF-8021-E5BE3A89C314
 Description=Basic Assembly
