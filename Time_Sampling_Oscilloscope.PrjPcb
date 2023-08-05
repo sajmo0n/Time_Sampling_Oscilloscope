@@ -115,26 +115,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EEOHOYQJ
 
 [Document5]
-DocumentPath=Schematics\Power_Supply.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=Schematics\Power_N2V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -149,9 +132,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YPKTJKHZ
 
-[Document7]
+[Document6]
 DocumentPath=Schematics\Power_P2V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -166,9 +149,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QRJYZEUP
 
-[Document8]
+[Document7]
 DocumentPath=Schematics\DAC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -183,9 +166,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RUGZJIPY
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\Power_P3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -200,9 +183,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WNCZTKXF
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\Power_VREF_P1V25.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -217,9 +200,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GBBJLHAI
 
-[Document11]
+[Document10]
 DocumentPath=Schematics\External_Trigger_Buffer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -234,9 +217,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WJJABMSZ
 
-[Document12]
+[Document11]
 DocumentPath=Schematics\Bipolar_Offset_Shifter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -251,9 +234,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RZLIMSVM
 
-[Document13]
+[Document12]
 DocumentPath=Schematics\Resistive_Unequal_Power_Divider.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,6 +252,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VWPYYZKH
+
+[Document13]
+DocumentPath=Schematics\Power_Supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BGQVLZXC
 
 [Document14]
 DocumentPath=Schematics\Main.Harness
@@ -309,34 +309,43 @@ UniqueID=3D95D31B-1725-4AFF-8021-E5BE3A89C314
 Description=Basic Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=27
+VariationCount=36
 Variation1=Designator=R1_1|UniqueId=\TQFABMYS\FUZNFEAT|Kind=1|AlternatePart= 
 Variation2=Designator=R1_2|UniqueId=\WVPCOZIY\FUZNFEAT|Kind=1|AlternatePart= 
-Variation3=Designator=R4_1|UniqueId=\TQFABMYS\MFMYTEZV|Kind=1|AlternatePart= 
-Variation4=Designator=R8_1|UniqueId=\TQFABMYS\CCXBPOXE|Kind=1|AlternatePart= 
-Variation5=Designator=R3_2|UniqueId=\WVPCOZIY\JJBIRSPA|Kind=1|AlternatePart= 
-Variation6=Designator=R3_1|UniqueId=\TQFABMYS\JJBIRSPA|Kind=1|AlternatePart= 
-Variation7=Designator=R7_1|UniqueId=\TQFABMYS\BAIUGPHV|Kind=1|AlternatePart= 
-Variation8=Designator=R7_2|UniqueId=\WVPCOZIY\BAIUGPHV|Kind=1|AlternatePart= 
-Variation9=Designator=R8_2|UniqueId=\WVPCOZIY\CCXBPOXE|Kind=1|AlternatePart= 
-Variation10=Designator=R4_2|UniqueId=\WVPCOZIY\MFMYTEZV|Kind=1|AlternatePart= 
-Variation11=Designator=C14|UniqueId=\TNZOGODT\LLVVZGYF\DFMBHWTZ|Kind=1|AlternatePart= 
-Variation12=Designator=R9|UniqueId=\TNZOGODT\LLVVZGYF\KOTKLQBI|Kind=1|AlternatePart= 
-Variation13=Designator=R11|UniqueId=\TNZOGODT\LLVVZGYF\HFEHNKFC|Kind=1|AlternatePart= 
-Variation14=Designator=R10|UniqueId=\TNZOGODT\LLVVZGYF\FLRNKPOK|Kind=1|AlternatePart= 
-Variation15=Designator=C25|UniqueId=\TNZOGODT\AODCEOHU\GUCWBISG|Kind=1|AlternatePart= 
-Variation16=Designator=R19|UniqueId=\POWGDWXQ\DHDGBYDP|Kind=1|AlternatePart= 
-Variation17=Designator=R22|UniqueId=\POWGDWXQ\OAKKNIMX|Kind=1|AlternatePart= 
-Variation18=Designator=R34_1|UniqueId=\TQFABMYS\AEITAURW|Kind=1|AlternatePart= 
-Variation19=Designator=R2_2|UniqueId=\WVPCOZIY\GVEFJMFD|Kind=1|AlternatePart= 
-Variation20=Designator=R35|UniqueId=\POWGDWXQ\DLXXULIZ|Kind=1|AlternatePart= 
-Variation21=Designator=R38|UniqueId=\POWGDWXQ\BLMOQKPH|Kind=0|AlternatePart= 
-Variation22=Designator=R40|UniqueId=\POWGDWXQ\AJMAOEJS|Kind=0|AlternatePart= 
-Variation23=Designator=R41|UniqueId=\POWGDWXQ\UWHQDGDC|Kind=1|AlternatePart= 
-Variation24=Designator=R42|UniqueId=\POWGDWXQ\LIHQEHBS|Kind=1|AlternatePart= 
-Variation25=Designator=R39|UniqueId=\POWGDWXQ\XIOAKIQJ|Kind=1|AlternatePart= 
-Variation26=Designator=R37|UniqueId=\POWGDWXQ\EPUBWZLF|Kind=1|AlternatePart= 
-Variation27=Designator=R36|UniqueId=\POWGDWXQ\MNOIWJRZ|Kind=1|AlternatePart= 
+Variation3=Designator=R8_1|UniqueId=\TQFABMYS\CCXBPOXE|Kind=1|AlternatePart= 
+Variation4=Designator=R3_2|UniqueId=\WVPCOZIY\JJBIRSPA|Kind=1|AlternatePart= 
+Variation5=Designator=R3_1|UniqueId=\TQFABMYS\JJBIRSPA|Kind=1|AlternatePart= 
+Variation6=Designator=R7_1|UniqueId=\TQFABMYS\BAIUGPHV|Kind=1|AlternatePart= 
+Variation7=Designator=R7_2|UniqueId=\WVPCOZIY\BAIUGPHV|Kind=1|AlternatePart= 
+Variation8=Designator=R8_2|UniqueId=\WVPCOZIY\CCXBPOXE|Kind=1|AlternatePart= 
+Variation9=Designator=C14|UniqueId=\TNZOGODT\LLVVZGYF\DFMBHWTZ|Kind=1|AlternatePart= 
+Variation10=Designator=R9|UniqueId=\TNZOGODT\LLVVZGYF\KOTKLQBI|Kind=1|AlternatePart= 
+Variation11=Designator=R11|UniqueId=\TNZOGODT\LLVVZGYF\HFEHNKFC|Kind=1|AlternatePart= 
+Variation12=Designator=R10|UniqueId=\TNZOGODT\LLVVZGYF\FLRNKPOK|Kind=1|AlternatePart= 
+Variation13=Designator=C25|UniqueId=\TNZOGODT\AODCEOHU\GUCWBISG|Kind=1|AlternatePart= 
+Variation14=Designator=R19|UniqueId=\POWGDWXQ\DHDGBYDP|Kind=1|AlternatePart= 
+Variation15=Designator=R22|UniqueId=\POWGDWXQ\OAKKNIMX|Kind=1|AlternatePart= 
+Variation16=Designator=R34_1|UniqueId=\TQFABMYS\AEITAURW|Kind=1|AlternatePart= 
+Variation17=Designator=R2_2|UniqueId=\WVPCOZIY\GVEFJMFD|Kind=1|AlternatePart= 
+Variation18=Designator=R35|UniqueId=\POWGDWXQ\DLXXULIZ|Kind=1|AlternatePart= 
+Variation19=Designator=R41|UniqueId=\POWGDWXQ\UWHQDGDC|Kind=1|AlternatePart= 
+Variation20=Designator=R42|UniqueId=\POWGDWXQ\LIHQEHBS|Kind=1|AlternatePart= 
+Variation21=Designator=R39|UniqueId=\POWGDWXQ\XIOAKIQJ|Kind=1|AlternatePart= 
+Variation22=Designator=R37|UniqueId=\POWGDWXQ\EPUBWZLF|Kind=1|AlternatePart= 
+Variation23=Designator=R36|UniqueId=\POWGDWXQ\MNOIWJRZ|Kind=1|AlternatePart= 
+Variation24=Designator=R4_1|UniqueId=\UYVQAUUP\KVELIYVL|Kind=1|AlternatePart= 
+Variation25=Designator=R4_2|UniqueId=\LYAQWRHB\KVELIYVL|Kind=1|AlternatePart= 
+Variation26=Designator=R47_2|UniqueId=\LYAQWRHB\DVUUCGNY|Kind=1|AlternatePart= 
+Variation27=Designator=R52_3|UniqueId=\AHAUDKZR\VNHRBSIO|Kind=1|AlternatePart= 
+Variation28=Designator=R52_2|UniqueId=\LYAQWRHB\VNHRBSIO|Kind=1|AlternatePart= 
+Variation29=Designator=R52_1|UniqueId=\UYVQAUUP\VNHRBSIO|Kind=1|AlternatePart= 
+Variation30=Designator=R47_3|UniqueId=\AHAUDKZR\DVUUCGNY|Kind=1|AlternatePart= 
+Variation31=Designator=R47_1|UniqueId=\UYVQAUUP\DVUUCGNY|Kind=1|AlternatePart= 
+Variation32=Designator=R4_3|UniqueId=\AHAUDKZR\KVELIYVL|Kind=1|AlternatePart= 
+Variation33=Designator=C39_1|UniqueId=\KAXBGLPU\ROYBWBOL|Kind=1|AlternatePart= 
+Variation34=Designator=C39_2|UniqueId=\OLHDZLDD\ROYBWBOL|Kind=1|AlternatePart= 
+Variation35=Designator=R39|UniqueId=\KCAHWFXX|Kind=1|AlternatePart= 
+Variation36=Designator=R53|UniqueId=\LQSRWFRT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -1316,17 +1325,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Capacitors.DbLib/Capacitors_SMD
-ComponentDesignItemID0=CC0603_100NF_16V_10%_X7R
-ComponentSymbolReference0=Capacitor - non polarized
+ComponentLibraryIdentifier0=ICs_and_Semiconductors.DbLib/DACs
+ComponentDesignItemID0=AD5623RBRMZ-3
+ComponentSymbolReference0=AD5623RBRMZ-3
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Capacitors.DbLib/Capacitors_SMD
-ComponentDesignItemID1=CC0603_1UF_16V_10%_X7R
-ComponentSymbolReference1=Capacitor - non polarized
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1348,31 +1351,18 @@ ParameterName2=Description
 ParameterUpdate2=1
 ParameterName3=DesignItemId
 ParameterUpdate3=1
-ParameterName4=Footprint
+ParameterName4=Device
 ParameterUpdate4=1
-ParameterName5=Height
+ParameterName5=HelpURL
 ParameterUpdate5=1
-ParameterName6=HelpURL
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Library Reference
+ParameterName7=Manufacturer 1 Component Height
 ParameterUpdate7=1
 ParameterName8=Manufacturer Part Number
 ParameterUpdate8=1
 ParameterName9=SMD
 ParameterUpdate9=1
-ParameterName10=Value
-ParameterUpdate10=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=CAPC0603X90L
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAPC0603X90M
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAPC0603X90N
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
