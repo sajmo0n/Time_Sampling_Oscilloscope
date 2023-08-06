@@ -60,30 +60,13 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BFXATJMS
 
 [Document2]
-DocumentPath=PCB.pcbdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HPXKSMFT
-
-[Document3]
 DocumentPath=Export.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=Schematics\Comparator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -111,13 +94,13 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEOHOYQJ
 
-[Document5]
+[Document4]
 DocumentPath=Schematics\Power_N2V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -128,13 +111,13 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YPKTJKHZ
 
-[Document6]
+[Document5]
 DocumentPath=Schematics\Power_P2V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -145,13 +128,13 @@ AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QRJYZEUP
 
-[Document7]
+[Document6]
 DocumentPath=Schematics\DAC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -162,13 +145,13 @@ AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RUGZJIPY
 
-[Document8]
+[Document7]
 DocumentPath=Schematics\Power_P3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -179,13 +162,13 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WNCZTKXF
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\Power_VREF_P1V25.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -196,13 +179,13 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GBBJLHAI
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\External_Trigger_Buffer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -213,13 +196,13 @@ AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WJJABMSZ
 
-[Document11]
+[Document10]
 DocumentPath=Schematics\Bipolar_Offset_Shifter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -230,13 +213,13 @@ AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RZLIMSVM
 
-[Document12]
+[Document11]
 DocumentPath=Schematics\Resistive_Unequal_Power_Divider.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -247,13 +230,13 @@ AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VWPYYZKH
 
-[Document13]
+[Document12]
 DocumentPath=Schematics\Power_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -264,13 +247,13 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BGQVLZXC
 
-[Document14]
+[Document13]
 DocumentPath=Schematics\Main.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=Schematics\DAC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,6 +286,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document15]
+DocumentPath=PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TLIIOSEB
 
 [ProjectVariant1]
 UniqueID=3D95D31B-1725-4AFF-8021-E5BE3A89C314
@@ -1325,9 +1325,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ICs_and_Semiconductors.DbLib/DACs
-ComponentDesignItemID0=AD5623RBRMZ-3
-ComponentSymbolReference0=AD5623RBRMZ-3
+ComponentLibraryIdentifier0=Connectors.DbLib/Connectors_SMD
+ComponentDesignItemID0=610112000000_
+ComponentSymbolReference0=Header 6x2
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1351,7 +1351,7 @@ ParameterName2=Description
 ParameterUpdate2=1
 ParameterName3=DesignItemId
 ParameterUpdate3=1
-ParameterName4=Device
+ParameterName4=Footprint
 ParameterUpdate4=1
 ParameterName5=HelpURL
 ParameterUpdate5=1
@@ -1363,6 +1363,11 @@ ParameterName8=Manufacturer Part Number
 ParameterUpdate8=1
 ParameterName9=SMD
 ParameterUpdate9=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=610112000000_
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
