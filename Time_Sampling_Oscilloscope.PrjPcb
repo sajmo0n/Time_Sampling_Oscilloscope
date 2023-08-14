@@ -1330,8 +1330,8 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Connectors.DbLib/Connectors_SMD
-ComponentDesignItemID0=CONSMA020.062-G
+ComponentLibraryIdentifier0=Connectors.DbLib/Connectors_THD
+ComponentDesignItemID0=901-144-8RFX
 ComponentSymbolReference0=Coax_1Female_1Shield
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
@@ -1371,7 +1371,7 @@ ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CONSMA020.062-G
+ModelName0=901-144-8RFX
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
