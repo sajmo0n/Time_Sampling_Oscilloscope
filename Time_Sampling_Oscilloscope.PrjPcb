@@ -309,7 +309,7 @@ UniqueID=3D95D31B-1725-4AFF-8021-E5BE3A89C314
 Description=Basic Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=37
+VariationCount=39
 Variation1=Designator=R1_1|UniqueId=\TQFABMYS\FUZNFEAT|Kind=1|AlternatePart= 
 Variation2=Designator=R1_2|UniqueId=\WVPCOZIY\FUZNFEAT|Kind=1|AlternatePart= 
 Variation3=Designator=R8_1|UniqueId=\TQFABMYS\CCXBPOXE|Kind=1|AlternatePart= 
@@ -347,10 +347,76 @@ Variation34=Designator=C39_2|UniqueId=\OLHDZLDD\ROYBWBOL|Kind=1|AlternatePart=
 Variation35=Designator=R39|UniqueId=\KCAHWFXX|Kind=1|AlternatePart= 
 Variation36=Designator=R53|UniqueId=\LQSRWFRT|Kind=1|AlternatePart= 
 Variation37=Designator=R?|UniqueId=\POWGDWXQ\DUZRTKGA|Kind=1|AlternatePart= 
+Variation38=Designator=R19|UniqueId=\POWGDWXQ\PCYWXAKF|Kind=1|AlternatePart= 
+Variation39=Designator=R20|UniqueId=\POWGDWXQ\QUPUHHPG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\BOM\Bill of Materials-Time_Sampling_Oscilloscope(Basic Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Design Rule Check - PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\NC Drill\PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\NC Drill\PCB.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1330,9 +1396,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Connectors.DbLib/Connectors_THD
-ComponentDesignItemID0=901-144-8RFX
-ComponentSymbolReference0=Coax_1Female_1Shield
+ComponentLibraryIdentifier0=Mechanical_and_PCB_Features.DbLib/PCB_Features
+ComponentDesignItemID0=MH-M3
+ComponentSymbolReference0=MH
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1356,22 +1422,18 @@ ParameterName2=Description
 ParameterUpdate2=1
 ParameterName3=DesignItemId
 ParameterUpdate3=1
-ParameterName4=Footprint
+ParameterName4=Family
 ParameterUpdate4=1
-ParameterName5=HelpURL
+ParameterName5=Footprint
 ParameterUpdate5=1
 ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Manufacturer 1 Component Height
+ParameterName7=Part Description
 ParameterUpdate7=1
-ParameterName8=Manufacturer Part Number
-ParameterUpdate8=1
-ParameterName9=SMD
-ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=901-144-8RFX
+ModelName0=MH-M3
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
@@ -1379,6 +1441,276 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID0=CC0603_100NF_16V_10%_X7R
+ComponentSymbolReference0=Capacitor - non polarized
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID1=CC0603_100PF_50V_5%_X7R
+ComponentSymbolReference1=Capacitor - non polarized
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID2=CC0603_10UF_25V_10%_X7R
+ComponentSymbolReference2=Capacitor - non polarized
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID3=CC0603_1UF_16V_10%_X7R
+ComponentSymbolReference3=Capacitor - non polarized
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID4=CC0603_2U2F_16V_10%_X7R
+ComponentSymbolReference4=Capacitor - non polarized
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID5=CC0603_4U7F_16V_10%_X7R
+ComponentSymbolReference5=Capacitor - non polarized
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Capacitors.DbLib/Capacitors_SMD
+ComponentDesignItemID6=CC0603_DNP
+ComponentSymbolReference6=Capacitor - non polarized
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Connectors.DbLib/Connectors_SMD
+ComponentDesignItemID7=CONSMA020.062-G
+ComponentSymbolReference7=Coax_1Female_1Shield
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Connectors.DbLib/Connectors_SMD
+ComponentDesignItemID8=WURTH_610112249121
+ComponentSymbolReference8=Header 6x2
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Connectors.DbLib/Connectors_THD
+ComponentDesignItemID9=571-0100
+ComponentSymbolReference9=Jack banana x1
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Connectors.DbLib/Connectors_THD
+ComponentDesignItemID10=571-0500
+ComponentSymbolReference10=Jack banana x1
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Connectors.DbLib/Connectors_THD
+ComponentDesignItemID11=901-144-8RFX
+ComponentSymbolReference11=Coax_1Female_1Shield
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Fuses.DbLib/Fuses_SMD
+ComponentDesignItemID12=C1Q 1
+ComponentSymbolReference12=Fuse
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=ICs_and_Semiconductors.DbLib/Amplifiers
+ComponentDesignItemID13=TLV333IDBV
+ComponentSymbolReference13=TLV333IDBV
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=ICs_and_Semiconductors.DbLib/Buffers_FlipFlops_Voltage_Supervisors
+ComponentDesignItemID14=LTC4360ISC8-2
+ComponentSymbolReference14=LTC4360ISC8-2
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=ICs_and_Semiconductors.DbLib/Comparators
+ComponentDesignItemID15=TLV3801
+ComponentSymbolReference15=TLV3801
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=ICs_and_Semiconductors.DbLib/DACs
+ComponentDesignItemID16=AD5623RBRMZ-3
+ComponentSymbolReference16=AD5623RBRMZ-3
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=ICs_and_Semiconductors.DbLib/DCDC_Converters
+ComponentDesignItemID17=LM2776
+ComponentSymbolReference17=LM2776
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=ICs_and_Semiconductors.DbLib/Drivers
+ComponentDesignItemID18=ADN4661BRZ
+ComponentSymbolReference18=ADN4661BRZ
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=ICs_and_Semiconductors.DbLib/LEDs
+ComponentDesignItemID19=LED_0603_V_GREEN
+ComponentSymbolReference19=LED 1C 2A
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=ICs_and_Semiconductors.DbLib/Logic_Converters
+ComponentDesignItemID20=SN74LVC1G04MDBVREP
+ComponentSymbolReference20=SN74LVC1G04
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=ICs_and_Semiconductors.DbLib/Regulators
+ComponentDesignItemID21=ADM7160AUJZ-2.5
+ComponentSymbolReference21=ADM7160AUJZ
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=ICs_and_Semiconductors.DbLib/Regulators
+ComponentDesignItemID22=ADM7170ACPZ-3.3
+ComponentSymbolReference22=ADM7170ACPZ-3.3
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=ICs_and_Semiconductors.DbLib/Regulators
+ComponentDesignItemID23=ADP7182AUJZ-2.5
+ComponentSymbolReference23=ADP7182AUJZ
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=ICs_and_Semiconductors.DbLib/Transistors
+ComponentDesignItemID24=AO3401A
+ComponentSymbolReference24=P-MOSFET-D 1G 2S 3D
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=ICs_and_Semiconductors.DbLib/Transistors
+ComponentDesignItemID25=AO3406
+ComponentSymbolReference25=N-MOSFET-D 1G 2S 3D
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=ICs_and_Semiconductors.DbLib/Voltage_reference
+ComponentDesignItemID26=LTC6652BHMS8-1.25
+ComponentSymbolReference26=LTC6652BHMS8-1.25
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Inductors.DbLib/Inductors_SMD
+ComponentDesignItemID27=FB0603_120R@100MHZ_2A
+ComponentSymbolReference27=Inductor
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Mechanical_and_PCB_Features.DbLib/PCB_Features
+ComponentDesignItemID28=FIDUCIAL_BOT_S100-200
+ComponentSymbolReference28=Fiducial Target
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Mechanical_and_PCB_Features.DbLib/PCB_Features
+ComponentDesignItemID29=FIDUCIAL_TOP_S100-200
+ComponentSymbolReference29=Fiducial Target
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Mechanical_and_PCB_Features.DbLib/PCB_Features
+ComponentDesignItemID30=MH-M3_C
+ComponentSymbolReference30=MH
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=Mechanical_and_PCB_Features.DbLib/PCB_Features
+ComponentDesignItemID31=TESTPOINT_SMD_C1P27MM
+ComponentSymbolReference31=Test Point
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID32=PS1608GT2-R50-T1
+ComponentSymbolReference32=PSXXXXGT2-R50
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID33=R0402_0R_JUMPER
+ComponentSymbolReference33=Resistor - Generic
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID34=R0402_1R43_0.0625W_100PPM
+ComponentSymbolReference34=Resistor - 1%
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID35=R0402_49R9_0.0625W_100PPM
+ComponentSymbolReference35=Resistor - 1%
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID36=R0402_53R6_0.0625W_100PPM
+ComponentSymbolReference36=Resistor - 1%
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID37=R0402_845R_0.0625W_100PPM
+ComponentSymbolReference37=Resistor - 1%
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID38=R0402_DNP
+ComponentSymbolReference38=Resistor - Generic
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID39=R0603_100k_0.1W_25PPM
+ComponentSymbolReference39=Resistor - 0.1%
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID40=R0603_100R_0.1W_100PPM
+ComponentSymbolReference40=Resistor - 1%
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID41=R0603_10K_0.1W_100PPM
+ComponentSymbolReference41=Resistor - 1%
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID42=R0603_10k_0.1W_25PPM
+ComponentSymbolReference42=Resistor - 0.1%
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID43=R0603_1K_0.1W_100PPM
+ComponentSymbolReference43=Resistor - 1%
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name And Type
+ComponentLibraryIdentifier44=Resistors.DbLib/Resistors_SMD
+ComponentDesignItemID44=R0603_27R_0.1W_100PPM
+ComponentSymbolReference44=Resistor - 1%
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
 
 [NetInfos]
 Net1=NetName=5V USB|NetColor=$00660066
