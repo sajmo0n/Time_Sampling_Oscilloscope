@@ -1,14 +1,12 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 19:17:59 On 15.08.2023
-
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [Basic Assembly] of Project [Time_Sampling_Oscilloscope.PrjPcb]
-   Generated File[Bill of Materials-Time_Sampling_Oscilloscope(Basic Assembly).xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB.PcbDoc]
+   Generated File[PCB.TXT]
+   Generated File[PCB.LDP]
+   Generated File[PCB.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 19:18:02 On 15.08.2023
+Finished Output Generation At 21:48:19 On 16.08.2023

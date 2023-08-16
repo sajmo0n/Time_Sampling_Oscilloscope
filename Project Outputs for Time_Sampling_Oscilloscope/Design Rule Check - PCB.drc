@@ -1,16 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\Main\Studia\Magisterka\Altium\Time_Sampling_Oscilloscope\PCB.PcbDoc
-Date     : 15.08.2023
-Time     : 20:34:35
+Date     : 16.08.2023
+Time     : 21:46:58
 
 Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG1-1(89.475mm,6.075mm) on L1/TOP And Region (0 hole(s)) L1/TOP 
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG2-1(90.175mm,95.3mm) on L1/TOP And Region (0 hole(s)) L1/TOP 
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG3-1(19.375mm,4.025mm) on L1/TOP And Region (0 hole(s)) L1/TOP 
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG4-1(14.825mm,4.175mm) on L4/BOT And Region (0 hole(s)) L4/BOT 
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG5-1(92.8mm,3.55mm) on L4/BOT And Region (0 hole(s)) L4/BOT 
-   Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG6-1(95.15mm,89.675mm) on L4/BOT And Region (0 hole(s)) L4/BOT 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -63,10 +57,10 @@ Rule Violations :0
 Processing Rule : Room U_DAC (Bounding Region = (109.325mm, 62.1mm, 132.025mm, 76.475mm) (InComponentClass('U_DAC'))
 Rule Violations :0
 
-Processing Rule : Room U_Resistive_Unequal_Power_DividerA (Bounding Region = (74.775mm, 48.4mm, 96.7mm, 73.125mm) (InComponentClass('U_Resistive_Unequal_Power_DividerA'))
+Processing Rule : Room U_External_Trigger_Buffer (Bounding Region = (49mm, 40.825mm, 82.2mm, 51.825mm) (InComponentClass('U_External_Trigger_Buffer'))
 Rule Violations :0
 
-Processing Rule : Room U_Resistive_Unequal_Power_DividerB (Bounding Region = (74.775mm, 64.15mm, 96.7mm, 88.875mm) (InComponentClass('U_Resistive_Unequal_Power_DividerB'))
+Processing Rule : Room U_Resistive_Unequal_Power_DividerA (Bounding Region = (74.8mm, 42.5mm, 131.921mm, 73.115mm) (InComponentClass('U_Resistive_Unequal_Power_DividerA'))
 Rule Violations :0
 
 Processing Rule : Room U_Bipolar_offset_shifterA (Bounding Region = (112.7mm, 81.1mm, 133.375mm, 96.8mm) (InComponentClass('U_Bipolar_offset_shifterA'))
@@ -75,13 +69,13 @@ Rule Violations :0
 Processing Rule : Room U_ComparatorA (Bounding Region = (57.45mm, 52.26mm, 68.7mm, 69.51mm) (InComponentClass('U_ComparatorA'))
 Rule Violations :0
 
-Processing Rule : Room U_External_Trigger_Buffer (Bounding Region = (49mm, 40.825mm, 82.2mm, 51.825mm) (InComponentClass('U_External_Trigger_Buffer'))
+Processing Rule : Room U_Resistive_Unequal_Power_DividerC (Bounding Region = (74.8mm, 32.8mm, 136.407mm, 57.49mm) (InComponentClass('U_Resistive_Unequal_Power_DividerC'))
 Rule Violations :0
 
 Processing Rule : Room U_ComparatorB (Bounding Region = (57.425mm, 67.85mm, 68.675mm, 85.1mm) (InComponentClass('U_ComparatorB'))
 Rule Violations :0
 
-Processing Rule : Room U_Resistive_Unequal_Power_DividerC (Bounding Region = (74.775mm, 32.775mm, 96.7mm, 57.5mm) (InComponentClass('U_Resistive_Unequal_Power_DividerC'))
+Processing Rule : Room U_Resistive_Unequal_Power_DividerB (Bounding Region = (74.8mm, 47.594mm, 131.921mm, 88.865mm) (InComponentClass('U_Resistive_Unequal_Power_DividerB'))
 Rule Violations :0
 
 Processing Rule : Room U_Bipolar_offset_shifterB (Bounding Region = (92.55mm, 81.125mm, 113.225mm, 96.825mm) (InComponentClass('U_Bipolar_offset_shifterB'))
@@ -90,7 +84,35 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG1-1(89.65mm,3.225mm) on L1/TOP And Region (0 hole(s)) L1/TOP Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG2-1(90.225mm,95.775mm) on L1/TOP And Region (0 hole(s)) L1/TOP Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG3-1(11.225mm,3.2mm) on L1/TOP And Region (0 hole(s)) L1/TOP Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG4-1(12.4mm,7.8mm) on L4/BOT And Region (0 hole(s)) L4/BOT Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG5-1(90.8mm,7.075mm) on L4/BOT And Region (0 hole(s)) L4/BOT Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+   Waived Violation between Clearance Constraint: (Collision < 0.125mm) Between Pad FTG6-1(91.425mm,91.175mm) on L4/BOT And Region (0 hole(s)) L4/BOT Waived by Szymon Jedliñski at 16.08.2023 21:46:20Fiducial bug
+Waived Violations :6
 
-Violations Detected : 6
-Waived Violations : 0
+Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
+   Waived Violation between Un-Routed Net Constraint: Track (18.1mm,2.7mm)(18.1mm,4.6mm) on L1/TOP Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (18.1mm,2.7mm)(20.1mm,2.7mm) on L1/TOP Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (18.1mm,4.6mm)(20.1mm,4.6mm) on L1/TOP Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (20.1mm,2.7mm)(20.1mm,4.6mm) on L1/TOP Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (20.7mm,2.7mm)(20.7mm,4.6mm) on L2/GND Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (20.7mm,2.7mm)(22.6mm,2.7mm) on L2/GND Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (20.7mm,4.6mm)(22.6mm,4.6mm) on L2/GND Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (22.6mm,2.7mm)(22.6mm,4.6mm) on L2/GND Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (23.1mm,2.7mm)(23.1mm,4.6mm) on L3/PWR Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (23.1mm,2.7mm)(25mm,2.7mm) on L3/PWR Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (23.1mm,4.6mm)(25mm,4.6mm) on L3/PWR Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (25.5mm,2.7mm)(25.5mm,4.6mm) on L4/BOT Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (25.5mm,2.7mm)(27.4mm,2.7mm) on L4/BOT Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (25.5mm,4.6mm)(27.4mm,4.6mm) on L4/BOT Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (25mm,2.7mm)(25mm,4.6mm) on L3/PWR Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+   Waived Violation between Un-Routed Net Constraint: Track (27.4mm,2.7mm)(27.4mm,4.6mm) on L4/BOT Dead Copper - Net Not Assigned.Waived by Szymon Jedliñski at 16.08.2023 21:45:58Layer numeration
+Waived Violations :16
+
+
+Violations Detected : 0
+Waived Violations : 22
 Time Elapsed        : 00:00:02
