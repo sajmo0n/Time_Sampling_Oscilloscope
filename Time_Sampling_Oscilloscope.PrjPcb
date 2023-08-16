@@ -368,55 +368,63 @@ DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.G1
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.G2
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument14]
 DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\NC Drill\PCB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Board_Shape.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Time_Sampling_Oscilloscope\Gerber\PCB_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]

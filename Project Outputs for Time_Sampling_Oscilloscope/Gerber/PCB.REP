@@ -2,8 +2,174 @@
 FileName = PCB.GBR
 AutoAperture = True
 *************************************************************
+Generating : L1/TOP
+      File : PCB_Copper_Signal_Top.gbr
+
+    Adding Layer      : L1/TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : L3/PWR
+      File : PCB_Copper_Signal_2.gbr
+
+    Adding Layer      : L3/PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D45
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L4/BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : L2/GND
+      File : PCB_Copper_Signal_1.gbr
+
+    Adding Layer      : L2/GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D41
+    D43
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : L4/BOT
+      File : PCB_Copper_Signal_Bot.gbr
+
+    Adding Layer      : L4/BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D41
+    D42
+    D43
+    D45
+    D49
+    D52
+    D56
+    D57
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PCB_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L1/TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
 Generating : Board Shape
-      File : PCB.GM2
+      File : PCB_Board_Shape.gbr
 
     Adding Layer      : Board Shape
 
@@ -13,40 +179,22 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : PCB.GBO
+Generating : Top Overlay
+      File : PCB_Legend_Top.gbr
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
+    D10
     D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : PCB.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : L4/BOT
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D18
-    D39
-    D40
-    D41
-    D42
-    D43
+    D12
+    D13
 *************************************************************
 
 *************************************************************
 Generating : Top Solder
-      File : PCB.GTS
+      File : PCB_Soldermask_Top.gbr
 
     Adding Layer      : Top Solder
 
@@ -89,22 +237,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : PCB.GTO
+Generating : Bottom Solder
+      File : PCB_Soldermask_Bot.gbr
 
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : L4/BOT
-      File : PCB.GBL
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : L4/BOT
 
@@ -112,107 +248,23 @@ Generating : L4/BOT
 
 
 Used DCodes :
-    D12
     D14
-    D41
-    D42
-    D43
-    D45
-    D49
-    D52
-    D56
-    D57
-    D58
-    D59
-*************************************************************
-
-*************************************************************
-Generating : L3/PWR
-      File : PCB.G2
-
-    Adding Layer      : L3/PWR
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D45
-    D58
-*************************************************************
-
-*************************************************************
-Generating : L2/GND
-      File : PCB.G1
-
-    Adding Layer      : L2/GND
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D41
-    D43
-    D57
-    D58
-*************************************************************
-
-*************************************************************
-Generating : L1/TOP
-      File : PCB.GTL
-
-    Adding Layer      : L1/TOP
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D14
-    D15
-    D16
-    D17
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
     D38
+    D39
+    D40
     D41
     D42
     D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
 *************************************************************
 
